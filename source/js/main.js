@@ -6,13 +6,11 @@ $(document).ready(function () {
   var topIcon = $('#tog-icon');
   if (topIcon) {
     $(window).on('scroll', function () {
-      var topD = $(".menu > nav").offset().top;
-      console.log(topD);
+      var topD = $(".right-post").offset().top;
       if (topD >= 800) {
         $('.fa-chevron-up').addClass('visible');
-        console.log($('.fa-chevron-up'));
       } else if (topD < 799) {
-        $('.fa-chevron-up').removeClass('aaa')
+        $('.fa-chevron-up').removeClass('visible')
       }
     })
   }

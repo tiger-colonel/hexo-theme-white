@@ -35,7 +35,7 @@
 }
 .highlight{
     font-family: 'Roboto Mono', Monaco, courier, monospace;
-    background: #f0f0f0;
+    background: #f6fcff;
     padding: 1.2em 1.4em;
     box-shadow: 2px 2px 1px #ddd;
     border-radius: 3px;
@@ -44,12 +44,10 @@
     .code{
         pre{
             border: none;
-            color: #c7254e;
             line-height: 1.6em;
         }
     }
 }
-
 .gutter{
     pre{
         border: none;
@@ -58,5 +56,5 @@
     }
 }
 .hljs{
-    background-color: #f0f0f0;
+    background-color: #f6fcff;
 }

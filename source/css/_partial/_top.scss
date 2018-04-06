@@ -1,16 +1,14 @@
 .right-post{
     position: fixed;
     top: 30px;
-    right: 20px;
+    right: 35px;
     color: #383838;
-    height: 300px;
-    width: 80px;
     transition: all .2s;
     .nav{
         display: none;
         position: absolute;
         list-style: none;
-        right: 45px;
+        right: -3px;
         top: 10px;
         .post-ul{
             list-style: none;
@@ -26,20 +24,19 @@
         text-decoration: none;
     }
     a:hover{
-        color: #FC930A;
+        color: #00DFFC;
         transform: scale(1.1);
+        cursor: pointer;
     }
-}
-
+} 
 #top-icon{
     position: fixed;
     bottom: 300px;
     right: 200px;
-    // visibility: hidden;
 }
-// .fa-chevron-up{
-//     visibility: hidden;
-// }
-// .visible{
-//     visibility: visible;
-// }
+.fa-chevron-up{
+    visibility: hidden;
+}
+.visible{
+    visibility: visible;
+}
