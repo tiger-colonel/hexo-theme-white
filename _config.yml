@@ -1,0 +1,21 @@
+nav:
+  Home: /
+  Git: http://github.com/tiger-colonel  
+  About: /about/
+  WeiBo: http://www.weibo.com
+
+customize:
+    logo:
+        enabled: true
+        width: 50
+        height: 50
+        url: /images/logo.png
+        gravatar: false
+    favicon: 
+      desktop:
+        url: /images/logo.png
+        gravatar: false
+    show_all_posts: false
+    post_count: 100
+    highlight: pojoaque
+

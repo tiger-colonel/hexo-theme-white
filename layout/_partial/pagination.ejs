@@ -1,0 +1,16 @@
+<div id="pagination">
+    <% if (page.prev || page.next){ %>
+            <% if (page.next){ %>       
+                <a href="<%- url_for(page.next.path) %>">
+                    <%= page.next.title %>
+                    <span>&larr;  <%- __('Prev')%></span>
+                </a>                      
+            <% } %>
+            <% if (page.prev){ %>                               
+                <a href="<%- url_for(page.prev.path) %>">
+                    <span><%- __('Next')%>  &rarr; </span> 
+                    <%= page.prev.title %>
+                </a>
+            <% } %>
+    <% } %>
+</div>

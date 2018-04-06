@@ -1,0 +1,45 @@
+.right-post{
+    position: fixed;
+    top: 30px;
+    right: 20px;
+    color: #383838;
+    height: 300px;
+    width: 80px;
+    transition: all .2s;
+    .nav{
+        display: none;
+        position: absolute;
+        list-style: none;
+        right: 45px;
+        top: 10px;
+        .post-ul{
+            list-style: none;
+            margin-top: 20px;
+            li{
+                float: left;
+                margin-top: 20px;
+            }
+        }
+    }
+    a{
+        color: #383838;
+        text-decoration: none;
+    }
+    a:hover{
+        color: #FC930A;
+        transform: scale(1.1);
+    }
+}
+
+#top-icon{
+    position: fixed;
+    bottom: 300px;
+    right: 200px;
+    // visibility: hidden;
+}
+// .fa-chevron-up{
+//     visibility: hidden;
+// }
+// .visible{
+//     visibility: visible;
+// }

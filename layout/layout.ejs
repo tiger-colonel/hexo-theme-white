@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html<%= config.language ? " lang=" + config.language.substring(0, 2) : ""%>>
+<%- partial('_partial/head') %>
+<body>
+    <div id="data-wrapper">
+        <% if (!is_post()) { %>
+            <%- partial('_partial/header') %>
+        <% } %>
+        <%- body %>
+    </div>
+    <%- partial('_partial/footer') %>
+</body>
+</html>
+

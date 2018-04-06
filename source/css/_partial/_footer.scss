@@ -1,0 +1,38 @@
+#footer{
+    position: relative;
+    margin: 0 332px;  
+    bottom: -100px;
+    margin-bottom: 20px;
+    height: 30px;
+    line-height: 30px;
+    transition: all .2s;
+    a{
+        text-decoration: none;
+        color: #aaa;
+    } 
+    a:hover{
+        color: #666;
+        transform: scale(1.1);
+    }
+}
+.footer-left{
+    display: inline-block;
+    font-size: 11px;
+    span{
+        color: #666;
+    }
+}
+.footer-right{
+    display: inline-block;
+    position: absolute;
+    list-style: none;
+    right: 20px;
+    ul{
+        list-style: none;
+        li{
+            float: left;
+            margin-left: 30px;
+        }
+    }
+}
+

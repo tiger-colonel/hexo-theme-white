@@ -1,0 +1,11 @@
+<article class="post">
+  <header>
+    <%- partial('_partial/post/title', { post: page, index: false, class_name: 'posttitle' }) %>
+    <%- partial('_partial/post/date', { post: page, class_name: 'postdate' }) %>
+  </header>
+  <div class="content" itemprop="articleBody">
+    <%- page.content %>
+  </div>
+    <%- partial('_partial/pagination') %>
+    <%- partial('_partial/post/top') %>    
+</article>
